@@ -15,7 +15,7 @@ public class Main {
 		int ans = BinarySearch(arr , target);
 		System.out.println(ans);
 	}
-	// Given Array is in Ascending order
+
 	static int BinarySearch (int[] arr, int target) {
 		int start=0;
 		int end = arr.length-1;
